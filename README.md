@@ -23,15 +23,19 @@ after installing sdcc\
 type in cmd:
 
 >sdcc -v
+
 you must get:\
 SDCC : mcs51/z80/z180/r2k/r2ka/r3ka/sm83/tlcs90/ez80_z80/z80n/r800/ds390/pic16/pic14/TININative/ds400/hc08/s08/stm8/pdk13/pdk14/pdk15/mos6502/mos65c02 TD- 4.4.0 #14620 (MINGW32)\
 published under GNU General Public License (GPL)\
 if not, you have to  install it properly\
 for compiling...\
 in the same directory open cmd
+
 >sdcc file.c
+
 the file should be compiled
 finally, we have to optain the hex\
 type in cmd
+
 >packihx file.ihx>file.hex
 file.hex obtained !!
